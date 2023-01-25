@@ -27,7 +27,6 @@ jobs:
           # Options
           user: Khalizo
           template: classic
-          repositories_affiliations: owner, collaborator, organization_member
           base: header, activity
           config_timezone: Europe/London
           
@@ -44,7 +43,6 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
           plugin_languages_categories: programming
-          plugin_languages_threshold: 0%
           
           plugin_notable: yes
           plugin_notable_from: all
